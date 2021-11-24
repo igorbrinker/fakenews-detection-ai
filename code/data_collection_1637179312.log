@@ -1,0 +1,32 @@
+2021-11-17 17:01:59,860 5796 news_content_collection ERROR Exception in getting data from url speedtalk.com/forum/viewtopic.php?t=51650
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\ia2\FakeNewsNet\code\news_content_collection.py", line 25, in crawl_link_article
+    article.parse()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with 404 Client Error: Not Found for url: https://www.speed-talk.com/forum/viewtopic.php?t=51650 on URL http://speedtalk.com/forum/viewtopic.php?t=51650
+2021-11-17 17:02:04,896 5796 news_content_collection ERROR Exception in getting data from url speedtalk.com/forum/viewtopic.php?t=51650
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\ia2\FakeNewsNet\code\news_content_collection.py", line 36, in crawl_link_article
+    article.parse()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with 404 Client Error: Not Found for url: https://www.speed-talk.com/forum/viewtopic.php?t=51650 on URL https://speedtalk.com/forum/viewtopic.php?t=51650
+2021-11-17 17:02:07,610 5796 news_content_collection ERROR Exception in getting data from url politics2020.info/index.php/2018/03/13/court-orders-obama-to-pay-400-million-in-restitution/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\ia2\FakeNewsNet\code\news_content_collection.py", line 25, in crawl_link_article
+    article.parse()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with HTTPConnectionPool(host='politics2020.info', port=80): Max retries exceeded with url: /index.php/2018/03/13/court-orders-obama-to-pay-400-million-in-restitution/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000275E45E7FD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')) on URL http://politics2020.info/index.php/2018/03/13/court-orders-obama-to-pay-400-million-in-restitution/
+2021-11-17 17:02:08,865 5796 news_content_collection ERROR Exception in getting data from url politics2020.info/index.php/2018/03/13/court-orders-obama-to-pay-400-million-in-restitution/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\ia2\FakeNewsNet\code\news_content_collection.py", line 35, in crawl_link_article
+    time.sleep(2)
+KeyboardInterrupt

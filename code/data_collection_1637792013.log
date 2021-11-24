@@ -1,0 +1,180 @@
+2021-11-24 19:13:38,881 12820 news_content_collection ERROR Exception in getting data from url speedtalk.com/forum/viewtopic.php?t=51650
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\ia2\FakeNewsNet\code\news_content_collection.py", line 25, in crawl_link_article
+    article.parse()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with 404 Client Error: Not Found for url: https://www.speed-talk.com/forum/viewtopic.php?t=51650 on URL http://speedtalk.com/forum/viewtopic.php?t=51650
+2021-11-24 19:13:44,801 12820 news_content_collection ERROR Exception in getting data from url speedtalk.com/forum/viewtopic.php?t=51650
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\ia2\FakeNewsNet\code\news_content_collection.py", line 36, in crawl_link_article
+    article.parse()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with 404 Client Error: Not Found for url: https://www.speed-talk.com/forum/viewtopic.php?t=51650 on URL https://speedtalk.com/forum/viewtopic.php?t=51650
+2021-11-24 19:13:47,497 12820 news_content_collection ERROR Exception in getting data from url politics2020.info/index.php/2018/03/13/court-orders-obama-to-pay-400-million-in-restitution/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\ia2\FakeNewsNet\code\news_content_collection.py", line 25, in crawl_link_article
+    article.parse()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with HTTPConnectionPool(host='politics2020.info', port=80): Max retries exceeded with url: /index.php/2018/03/13/court-orders-obama-to-pay-400-million-in-restitution/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DB5D72EEE0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')) on URL http://politics2020.info/index.php/2018/03/13/court-orders-obama-to-pay-400-million-in-restitution/
+2021-11-24 19:13:49,531 12820 news_content_collection ERROR Exception in getting data from url politics2020.info/index.php/2018/03/13/court-orders-obama-to-pay-400-million-in-restitution/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\ia2\FakeNewsNet\code\news_content_collection.py", line 36, in crawl_link_article
+    article.parse()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with HTTPSConnectionPool(host='politics2020.info', port=443): Max retries exceeded with url: /index.php/2018/03/13/court-orders-obama-to-pay-400-million-in-restitution/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001DB5D72E0D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')) on URL https://politics2020.info/index.php/2018/03/13/court-orders-obama-to-pay-400-million-in-restitution/
+2021-11-24 19:14:28,585 12820 news_content_collection ERROR Exception in getting data from url http://yournewswire.com/youngest-leader-george-soros/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\ia2\FakeNewsNet\code\news_content_collection.py", line 49, in crawl_link_article
+    article.parse()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with 404 Client Error: Not Found for url: http://yournewswire.com/youngest-leader-george-soros/ on URL http://yournewswire.com/youngest-leader-george-soros/
+2021-11-24 19:14:40,835 12820 news_content_collection ERROR Exception in getting data from url http://dailyfeed.news/barack-obama-tweets-sick-attack-on-john-mccain-says-he-should-have-died/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\ia2\FakeNewsNet\code\news_content_collection.py", line 49, in crawl_link_article
+    article.parse()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with 404 Client Error: Not Found for url: https://cde.news/newsfeed/barack-obama-tweets-sick-attack-on-john-mccain-says-he-should-have-died on URL http://dailyfeed.news/barack-obama-tweets-sick-attack-on-john-mccain-says-he-should-have-died/
+2021-11-24 19:14:58,002 12820 news_content_collection ERROR Exception in getting data from url http://therightists.com/gretchen-carlson-the-2nd-amendment-was-written-before-guns-were-invented/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\ia2\FakeNewsNet\code\news_content_collection.py", line 49, in crawl_link_article
+    article.parse()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with 404 Client Error: Not Found for url: https://therightists.com/gretchen-carlson-the-2nd-amendment-was-written-before-guns-were-invented/ on URL http://therightists.com/gretchen-carlson-the-2nd-amendment-was-written-before-guns-were-invented/
+2021-11-24 19:15:05,003 12820 news_content_collection ERROR Exception in getting data from url http://yournewswire.com/pope-francis-jesus-metaphorical/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\ia2\FakeNewsNet\code\news_content_collection.py", line 49, in crawl_link_article
+    article.parse()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with 404 Client Error: Not Found for url: http://yournewswire.com/pope-francis-jesus-metaphorical/ on URL http://yournewswire.com/pope-francis-jesus-metaphorical/
+2021-11-24 19:15:25,781 12820 news_content_collection ERROR Exception in getting data from url http://nrtonline.info/breaking-nancy-pelosi-to-resign-after-new-revelations/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\ia2\FakeNewsNet\code\news_content_collection.py", line 49, in crawl_link_article
+    article.parse()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with HTTPConnectionPool(host='nrtonline.info', port=80): Max retries exceeded with url: /breaking-nancy-pelosi-to-resign-after-new-revelations/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DB5D31F1C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')) on URL http://nrtonline.info/breaking-nancy-pelosi-to-resign-after-new-revelations/
+2021-11-24 19:15:37,718 12820 news_content_collection ERROR Exception in getting data from url usaconservativereport.com/2017/08/breaking-leaked-picture-obama-dragged-judge-handcuffs-wiretapping-trump/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\ia2\FakeNewsNet\code\news_content_collection.py", line 25, in crawl_link_article
+    article.parse()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with HTTPConnectionPool(host='usaconservativereport.com', port=80): Max retries exceeded with url: /2017/08/breaking-leaked-picture-obama-dragged-judge-handcuffs-wiretapping-trump/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DB5D3D7400>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')) on URL http://usaconservativereport.com/2017/08/breaking-leaked-picture-obama-dragged-judge-handcuffs-wiretapping-trump/
+2021-11-24 19:15:39,936 12820 news_content_collection ERROR Exception in getting data from url usaconservativereport.com/2017/08/breaking-leaked-picture-obama-dragged-judge-handcuffs-wiretapping-trump/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\ia2\FakeNewsNet\code\news_content_collection.py", line 36, in crawl_link_article
+    article.parse()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with HTTPSConnectionPool(host='usaconservativereport.com', port=443): Max retries exceeded with url: /2017/08/breaking-leaked-picture-obama-dragged-judge-handcuffs-wiretapping-trump/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001DB5D3D7340>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')) on URL https://usaconservativereport.com/2017/08/breaking-leaked-picture-obama-dragged-judge-handcuffs-wiretapping-trump/
+2021-11-24 19:15:47,808 12820 news_content_collection ERROR Exception in getting data from url https://www.puppetstringnews.com/blog/clinton-campaign-official-arrested-by-fbi-on-child-rapetrafficking-charges
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\ia2\FakeNewsNet\code\news_content_collection.py", line 49, in crawl_link_article
+    article.parse()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with 404 Client Error: Not Found for url: https://puppetstringnews.com/blog/clinton-campaign-official-arrested-by-fbi-on-child-rapetrafficking-charges on URL https://www.puppetstringnews.com/blog/clinton-campaign-official-arrested-by-fbi-on-child-rapetrafficking-charges
+2021-11-24 19:15:54,282 12820 news_content_collection ERROR Exception in getting data from url donaldtrainews.blogspot.com/2017/11/breaking-rosa-parks-granddaughter-slams.html
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\ia2\FakeNewsNet\code\news_content_collection.py", line 25, in crawl_link_article
+    article.parse()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with 404 Client Error: Not Found for url: http://donaldtrainews.blogspot.com/2017/11/breaking-rosa-parks-granddaughter-slams.html on URL http://donaldtrainews.blogspot.com/2017/11/breaking-rosa-parks-granddaughter-slams.html
+2021-11-24 19:15:57,471 12820 news_content_collection ERROR Exception in getting data from url donaldtrainews.blogspot.com/2017/11/breaking-rosa-parks-granddaughter-slams.html
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\ia2\FakeNewsNet\code\news_content_collection.py", line 36, in crawl_link_article
+    article.parse()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with 404 Client Error: Not Found for url: https://donaldtrainews.blogspot.com/2017/11/breaking-rosa-parks-granddaughter-slams.html on URL https://donaldtrainews.blogspot.com/2017/11/breaking-rosa-parks-granddaughter-slams.html
+2021-11-24 19:16:18,243 12820 news_content_collection ERROR Exception in getting data from url http://yournewswire.com/clinton-email-we-must-destroy-syria-for-israel/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\ia2\FakeNewsNet\code\news_content_collection.py", line 49, in crawl_link_article
+    article.parse()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with 404 Client Error: Not Found for url: http://yournewswire.com/clinton-email-we-must-destroy-syria-for-israel/ on URL http://yournewswire.com/clinton-email-we-must-destroy-syria-for-israel/
+2021-11-24 19:16:24,832 12820 news_content_collection ERROR Exception in getting data from url https://quickening-spirit.com/fareed-zakaria-calls-for-jihad-rape-of-white-women/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\ia2\FakeNewsNet\code\news_content_collection.py", line 49, in crawl_link_article
+    article.parse()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with HTTPSConnectionPool(host='quickening-spirit.com', port=443): Max retries exceeded with url: /fareed-zakaria-calls-for-jihad-rape-of-white-women/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1129)'))) on URL https://quickening-spirit.com/fareed-zakaria-calls-for-jihad-rape-of-white-women/
+2021-11-24 19:16:32,349 12820 news_content_collection ERROR Exception in getting data from url www.newsweek.com/president-donald-trump-kim-jong-un-nobel-peace-prize-north-korea-south-korea-905146
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\ia2\FakeNewsNet\code\news_content_collection.py", line 25, in crawl_link_article
+    article.parse()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with 403 Client Error: Forbidden for url: https://www.newsweek.com/president-donald-trump-kim-jong-un-nobel-peace-prize-north-korea-south-korea-905146 on URL http://www.newsweek.com/president-donald-trump-kim-jong-un-nobel-peace-prize-north-korea-south-korea-905146
+2021-11-24 19:16:34,907 12820 news_content_collection ERROR Exception in getting data from url www.newsweek.com/president-donald-trump-kim-jong-un-nobel-peace-prize-north-korea-south-korea-905146
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\ia2\FakeNewsNet\code\news_content_collection.py", line 36, in crawl_link_article
+    article.parse()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with 403 Client Error: Forbidden for url: https://www.newsweek.com/president-donald-trump-kim-jong-un-nobel-peace-prize-north-korea-south-korea-905146 on URL https://www.newsweek.com/president-donald-trump-kim-jong-un-nobel-peace-prize-north-korea-south-korea-905146
+2021-11-24 19:16:42,475 12820 news_content_collection ERROR Exception in getting data from url www.usacarry.com/forums/politics-and-news/62789-update-hillary-clinton-leaves-country-mueller-indictment-announced.html
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\ia2\FakeNewsNet\code\news_content_collection.py", line 25, in crawl_link_article
+    article.parse()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with 403 Client Error: Forbidden for url: https://forums.usacarry.com/politics-and-news/62789-update-hillary-clinton-leaves-country-mueller-indictment-announced.html on URL http://www.usacarry.com/forums/politics-and-news/62789-update-hillary-clinton-leaves-country-mueller-indictment-announced.html
+2021-11-24 19:16:45,193 12820 news_content_collection ERROR Exception in getting data from url www.usacarry.com/forums/politics-and-news/62789-update-hillary-clinton-leaves-country-mueller-indictment-announced.html
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\ia2\FakeNewsNet\code\news_content_collection.py", line 36, in crawl_link_article
+    article.parse()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 191, in parse
+    self.throw_if_not_downloaded_verbose()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\newspaper\article.py", line 531, in throw_if_not_downloaded_verbose
+    raise ArticleException('Article `download()` failed with %s on URL %s' %
+newspaper.article.ArticleException: Article `download()` failed with 403 Client Error: Forbidden for url: https://forums.usacarry.com/politics-and-news/62789-update-hillary-clinton-leaves-country-mueller-indictment-announced.html on URL https://www.usacarry.com/forums/politics-and-news/62789-update-hillary-clinton-leaves-country-mueller-indictment-announced.html

@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-#Trabalho IA2 G2
-#Alunos: Igor Brinker
+#Author: igorbrinker
 
 import pandas as pd
 import numpy as np
